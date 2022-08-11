@@ -1,0 +1,19 @@
+.parent {
+	@apply m-8 mt-0;
+
+	> div {
+		@apply shadow-xl rounded-md overflow-hidden;
+
+		input {
+			@apply block w-full bg-white bg-opacity-10 border-r-2 border-transparent focus:border-slate-400 py-3 px-4 placeholder:text-slate-500 outline-none text-slate-50 transition-colors;
+		}
+
+		.button {
+			@apply transition-colors btn-primary;
+		}
+	}
+
+	.heading {
+		@apply text-center text-2xl text-white font-bold my-6;
+	}
+}
